@@ -1,0 +1,19 @@
+{
+  "name": "bpmetrix",
+  "version": "1.0.0",
+  "description": "BPMetrix",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markomalis/BPMetrix.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markomalis/BPMetrix/issues"
+  },
+  "homepage": "https://github.com/markomalis/BPMetrix#readme"
+}

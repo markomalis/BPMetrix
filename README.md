@@ -1,4 +1,5 @@
 # BPMetrix
+
 BPMetrix is an open-source project that allows users to track their heart rate with a
 free to use (progressive) webapp.
 
@@ -22,6 +23,9 @@ release of the MVP.
 
 ## Useful Links
 
-### Calculations with Heartrates
+This section contains useful links used during development of the application. The
+articles are grouped in categories for easy search.
+
+### Calculations using Heart rates
 * [An Energy Expenditure Estimation Method Based on Heart Rate Measurement (PDF)](https://www.firstbeat.com/app/uploads/2015/10/white_paper_energy_expenditure_estimation.pdf)
 * [Computational Methods for Estimating Energy Expenditure in Human Physical Activities](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3475744/)

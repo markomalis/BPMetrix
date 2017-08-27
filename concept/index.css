@@ -1,0 +1,28 @@
+html {
+	background-color: #191919;
+}
+
+.svg-container {
+  height:300px;
+  width: 100%;
+  overflow: scroll;
+}
+
+.svg-container.small {
+	height:100px;
+  width: 30%;
+}
+
+.heartbeat-measurement {
+	fill: #bc4b4b;
+}
+
+.heartbeat-measurement:hover {
+	fill: #666;
+}
+
+.button {
+	background-color: white;
+	border-radius: 3px;
+	padding: 5px 10px;
+}

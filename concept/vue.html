@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>BPMetrixs</title>
+  <link rel="stylesheet" href="index.css" type="text/css">
+  </head>
+  <body>
+		<main id='app-main' class='content'>
+			<heartbeats></heartbeats>
+		</main>
+		<template id='heartbeat-template'>
+			<rect class="heartbeat-measurement" :width="width" :height="height + '%'" :x="x" :y="calcY + '%'"></rect>
+		</template>
+		<template id='heartbeats-svg-template'>
+			<svg
+				width="100%"
+				height="100%"
+				:view-box.camel="viewboxMetrics"
+			>
+				<desc>Vue Test</desc>
+				<heartbeat
+					v-for="(beat, index) in beats"
+					:key="index"
+					:x="beat.x"
+					:height="beat.height"
+				>
+				</heartbeat>
+			</svg>
+		</template>
+		<template id='heartbeats-container-template'>
+			<section>
+				<article class='svg-container' :class="{ small: isSmall }">
+					<heartbeats-svg :small="isSmall"></heartbeats-svg>
+				</article>
+				<button
+					class="button"
+					type="button"
+					name="button"
+					@click="toggleSize"
+				>{{ isSmall ? 'Zoom Out' : 'Zoom In' }}
+				</button>
+			</section>
+		</template>
+		<script type="text/javascript" src="https://unpkg.com/vue"></script>
+		<script type="text/javascript" src="vue-index.js"></script>
+  </body>
+</html>
